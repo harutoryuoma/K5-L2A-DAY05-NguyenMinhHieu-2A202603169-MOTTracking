@@ -16,3 +16,19 @@ MOT17*/
 # CVAT local lab preparation
 .lab-local/
 .venv/
+
+# Walkthrough images không được commit
+walkthrough_images/
+
+# Không commit dữ liệu ảnh và file nén
+*.jpg
+*.jpeg
+*.png
+*.zip
+
+# Chỉ cho phép 3 ảnh minh chứng
+!report/
+!report/individual/
+!report/individual/che_1_truoc.png
+!report/individual/che_2_giua.png
+!report/individual/che_3_sau.png
